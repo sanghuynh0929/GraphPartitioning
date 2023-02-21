@@ -5,7 +5,6 @@ from copy import deepcopy
 n = None
 m = None
 k = None
-alpha = None
 partition = None
 ans_partition = None
 affinity = None
@@ -14,13 +13,24 @@ epsilon = 0.05
 
 xadj, adjncy, vwgt, adjcwgt = None, None, None, None
 time_limit = None
-
+def init():
+    global affinity, n, m, k, V_max, epsilon, partition, ans_partition
+    global xadj, adjncy, vwgt, adjcwgt
+    global time_limit
+    n = None
+    m = None
+    k = None
+    partition = None
+    ans_partition = None
+    affinity = None
+    V_max = None
+    epsilon = 0.05
 
 def solve(input_affinity, input_n, input_m, input_k, input_epsilon, inp_time_limit=None):
     global affinity, n, m, k, epsilon, V_max
     global xadj, adjncy, vwgt, adjcwgt
     global time_limit
-
+    init()
     time_limit = inp_time_limit
     affinity = deepcopy(input_affinity)
     n = input_n
@@ -40,9 +50,9 @@ def solve(input_affinity, input_n, input_m, input_k, input_epsilon, inp_time_lim
                 adjcwgt.append(affinity[i][j])
                 a += 1
         xadj.append(a)
-    IPModel()
+    return IPModel()
 
-    return ans_partition
+    # return ans_partition
 
 
 def IPModel():
@@ -94,14 +104,15 @@ def IPModel():
     status = solver.Solve()
 
     if status == pywraplp.Solver.OPTIMAL or status == pywraplp.Solver.FEASIBLE:
-        print('Objective Value =', solver.Objective().Value())
-        for v in range(n):
-            for p in range(k):
-                if X[(v,p)].solution_value() == 1.:
-                    print("Vertex {} belongs to Partition {}".format(v,p))
-        print()
-        print('Problem solved in %f milliseconds' % solver.wall_time())
-        print('Problem solved in %d iterations' % solver.iterations())
-        print('Problem solved in %d branch-and-bound nodes' % solver.nodes())
-    else:
-        print('The problem does not have an optimal solution.')
+        return solver.Objective().Value()
+        # print('Objective Value =', solver.Objective().Value())
+    #     for v in range(n):
+    #         for p in range(k):
+    #             if X[(v,p)].solution_value() == 1.:
+    #                 print("Vertex {} belongs to Partition {}".format(v,p))
+    #     print()
+    #     print('Problem solved in %f milliseconds' % solver.wall_time())
+    #     print('Problem solved in %d iterations' % solver.iterations())
+    #     print('Problem solved in %d branch-and-bound nodes' % solver.nodes())
+    # else:
+    #     print('The problem does not have an optimal solution.')

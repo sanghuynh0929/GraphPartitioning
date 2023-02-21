@@ -20,7 +20,7 @@ def solve(affinity, n, m, k, epsilon, time):
         proj_df.columns = ['v_' + str(c) for c in proj_df.columns]
         return proj_df
 
-    proj_df = project_and_transpose(eigenvals, eigenvcts, num_ev=2)
+    proj_df = project_and_transpose(eigenvals, eigenvcts, num_ev=k)
 
     def run_k_means(df, n_clusters):
         """K-means clustering."""
@@ -29,5 +29,5 @@ def solve(affinity, n, m, k, epsilon, time):
         cluster = k_means.predict(df)
         return cluster
 
-    cluster = run_k_means(proj_df, n_clusters=2)
+    cluster = run_k_means(proj_df, n_clusters=k)
     return cluster

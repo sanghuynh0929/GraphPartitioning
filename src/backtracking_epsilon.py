@@ -1,5 +1,5 @@
 from math import ceil
-
+import copy
 n = None
 m = None
 k = None
@@ -10,21 +10,27 @@ affinity = None
 lower_bound = float('inf')
 V_max = None
 epsilon = 0.05
-
+def init():
+    global affinity, n, m, k, alpha, partition, ans_partition, lower_bound, V_max, epsilon
+    n = None
+    m = None
+    k = None
+    alpha = None
+    partition = None
+    ans_partition = None
+    affinity = None
+    lower_bound = float('inf')
+    V_max = None
+    epsilon = 0.05
 
 def Try(i, mx, ans=0):
-    global lower_bound, ans_partition
+    global lower_bound, ans_partition, V_max
 
     def check_valid_partition():
-        def check_epsilon(cnt):
-            mx = max(cnt)
-            return mx < V_max
-
         count = [0 for _ in range(k)]
         for i in range(n):
             count[partition[i]] += 1
-        else:
-            return check_epsilon(count)
+        return max(count) <= V_max
 
     if i == n:
         if check_valid_partition() is True and ans < lower_bound:
@@ -70,10 +76,10 @@ def Try(i, mx, ans=0):
                     continue
 
 
-def solve(input_affinity, input_n, input_m, input_k, input_epsilon):
+def solve(input_affinity, input_n, input_m, input_k, input_epsilon, time=0):
     global affinity, n, m, k, epsilon, V_max, partition, ans_partition
-
-    affinity = input_affinity
+    init()
+    affinity = copy.deepcopy(input_affinity)
     n = input_n
     m = input_m
     k = input_k
@@ -82,5 +88,5 @@ def solve(input_affinity, input_n, input_m, input_k, input_epsilon):
     ans_partition = [-1 for i in range(n)]
     V_max = ceil((1 + epsilon) * n / k)
     Try(0, 0)
-    return ans_partition
+    return lower_bound, ans_partition
 
