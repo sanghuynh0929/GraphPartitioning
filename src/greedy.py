@@ -4,7 +4,7 @@ def greedy_partition(graph, n, k):
     vert = list(range(n))
     random.shuffle(vert)
 
-    for p in range(2):
+    for p in range(k):
         u = vert[-1]
         part[u] = p
         vert.pop()
@@ -37,21 +37,16 @@ def greedy_partition(graph, n, k):
         part[b] = p
         vert.remove(b)
         p = (p + 1) % k
-    P0, P1 = set(), set()
-    for i in range(len(part)):
-        if part[i] == 0:
-            P0.add(i)
-        else:
-            P1.add(i)
-    return P0, P1
+    return part
 
 def solve(affinity, n, m, k, epsilon, epochs):
     min_ans = float('inf')
     for epoch in range(epochs):
-        P0, P1 = greedy_partition(affinity, n, 2)
+        part = greedy_partition(affinity, n, k)
         ans = 0
-        for p in P0:
-            for q in P1:
-                ans += affinity[p][q]
-        min_ans = min(ans, min_ans)
+        for i in range(n):
+            for j in range(i):
+                if part[i] != part[j]:
+                    ans += affinity[i][j]
+        min_ans = min(min_ans, ans)
     return min_ans
