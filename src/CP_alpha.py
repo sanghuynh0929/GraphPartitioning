@@ -53,7 +53,7 @@ def solve(input_affinity, input_n, input_m, input_k, input_alpha, inp_time_limit
                 adjcwgt.append(affinity[i][j])
                 a += 1
         xadj.append(a)
-    return CPModel()
+    return round(CPModel())
 
     # return ans_partition
 

@@ -88,5 +88,5 @@ def solve(input_affinity, input_n, input_m, input_k, input_epsilon, time=0):
     ans_partition = [-1 for i in range(n)]
     V_max = ceil((1 + epsilon) * n / k)
     Try(0, 0)
-    return lower_bound, ans_partition
+    return lower_bound
 

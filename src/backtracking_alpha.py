@@ -91,6 +91,6 @@ def solve(input_affinity, input_n, input_m, input_k, input_alpha, time=0):
     partition = [0 for i in range(n)]
     ans_partition = [-1 for i in range(n)]
     Try(0, 0)
-    return lower_bound, ans_partition
+    return lower_bound
 
 

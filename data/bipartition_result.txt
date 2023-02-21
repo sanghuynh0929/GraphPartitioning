@@ -1,0 +1,793 @@
+SET 1
+TEST 1:
+Backtracking(alpha) 453 0.0007
+CP(alpha) 453 0.0163
+IP(alpha) 453 0.0545
+Backtracking(eps) 357 0.0005
+CP(eps) 357 0.0057
+IP(eps) 357 0.0274
+Spectral 393 0.0222
+Greedy(500) 453 0.0184
+Greedy(1000) 453 0.0356
+GreedyKL 453 0.0001
+TEST 2:
+Backtracking(alpha) 423 0.0004
+CP(alpha) 423 0.0064
+IP(alpha) 423 0.0211
+Backtracking(eps) 423 0.0003
+CP(eps) 423 0.0062
+IP(eps) 423 0.0336
+Spectral 423 0.0036
+Greedy(500) 423 0.0183
+Greedy(1000) 423 0.0367
+GreedyKL 423 0.0001
+TEST 3:
+Backtracking(alpha) 323 0.0006
+CP(alpha) 323 0.007
+IP(alpha) 323 0.0405
+Backtracking(eps) 323 0.0005
+CP(eps) 323 0.0063
+IP(eps) 323 0.0405
+Spectral 296 0.0053
+Greedy(500) 323 0.0179
+Greedy(1000) 323 0.0361
+GreedyKL 373 0.0001
+TEST 4:
+Backtracking(alpha) 393 0.0005
+CP(alpha) 393 0.0066
+IP(alpha) 393 0.044
+Backtracking(eps) 335 0.0003
+CP(eps) 335 0.0058
+IP(eps) 335 0.0349
+Spectral 393 0.0044
+Greedy(500) 393 0.018
+Greedy(1000) 393 0.036
+GreedyKL 393 0.0001
+TEST 5:
+Backtracking(alpha) 328 0.0006
+CP(alpha) 328 0.0064
+IP(alpha) 328 0.043
+Backtracking(eps) 282 0.0004
+CP(eps) 282 0.0056
+IP(eps) 282 0.0329
+Spectral 395 0.0033
+Greedy(500) 328 0.0178
+Greedy(1000) 328 0.0356
+GreedyKL 328 0.0001
+TEST 6:
+Backtracking(alpha) 510 0.0006
+CP(alpha) 510 0.0067
+IP(alpha) 510 0.0389
+Backtracking(eps) 423 0.0003
+CP(eps) 423 0.0059
+IP(eps) 423 0.0291
+Spectral 423 0.0032
+Greedy(500) 510 0.0179
+Greedy(1000) 510 0.0357
+GreedyKL 510 0.0001
+TEST 7:
+Backtracking(alpha) 539 0.0007
+CP(alpha) 539 0.0067
+IP(alpha) 539 0.0372
+Backtracking(eps) 429 0.0005
+CP(eps) 429 0.0057
+IP(eps) 429 0.0311
+Spectral 566 0.0042
+Greedy(500) 539 0.0181
+Greedy(1000) 539 0.0365
+GreedyKL 566 0.0001
+TEST 8:
+Backtracking(alpha) 369 0.0003
+CP(alpha) 369 0.0065
+IP(alpha) 369 0.0346
+Backtracking(eps) 349 0.0002
+CP(eps) 349 0.0058
+IP(eps) 349 0.0273
+Spectral 369 0.0048
+Greedy(500) 369 0.0182
+Greedy(1000) 369 0.0367
+GreedyKL 369 0.0001
+TEST 9:
+Backtracking(alpha) 371 0.0005
+CP(alpha) 371 0.0062
+IP(alpha) 371 0.0363
+Backtracking(eps) 297 0.0004
+CP(eps) 297 0.0058
+IP(eps) 297 0.025
+Spectral 254 0.003
+Greedy(500) 371 0.0178
+Greedy(1000) 371 0.0357
+GreedyKL 371 0.0001
+TEST 10:
+Backtracking(alpha) 346 0.0005
+CP(alpha) 346 0.0063
+IP(alpha) 346 0.0431
+Backtracking(eps) 346 0.0003
+CP(eps) 346 0.0059
+IP(eps) 346 0.0377
+Spectral 352 0.0028
+Greedy(500) 346 0.0181
+Greedy(1000) 346 0.0363
+GreedyKL 346 0.0001
+TEST 11:
+Backtracking(alpha) 368 0.0005
+CP(alpha) 368 0.0063
+IP(alpha) 368 0.0367
+Backtracking(eps) 324 0.0004
+CP(eps) 324 0.0058
+IP(eps) 324 0.0168
+Spectral 368 0.0053
+Greedy(500) 368 0.0179
+Greedy(1000) 368 0.0357
+GreedyKL 368 0.0001
+TEST 12:
+Backtracking(alpha) 452 0.0006
+CP(alpha) 452 0.0066
+IP(alpha) 452 0.0358
+Backtracking(eps) 452 0.0005
+CP(eps) 452 0.0057
+IP(eps) 452 0.0407
+Spectral 452 0.0052
+Greedy(500) 452 0.0182
+Greedy(1000) 452 0.0362
+GreedyKL 452 0.0001
+TEST 13:
+Backtracking(alpha) 371 0.0006
+CP(alpha) 371 0.0065
+IP(alpha) 371 0.0328
+Backtracking(eps) 371 0.0005
+CP(eps) 371 0.006
+IP(eps) 371 0.0252
+Spectral 371 0.0044
+Greedy(500) 371 0.018
+Greedy(1000) 371 0.0356
+GreedyKL 371 0.0001
+TEST 14:
+Backtracking(alpha) 439 0.0006
+CP(alpha) 439 0.0072
+IP(alpha) 439 0.0386
+Backtracking(eps) 345 0.0004
+CP(eps) 345 0.0057
+IP(eps) 345 0.0274
+Spectral 320 0.0043
+Greedy(500) 439 0.018
+Greedy(1000) 439 0.0358
+GreedyKL 441 0.0001
+TEST 15:
+Backtracking(alpha) 366 0.0006
+CP(alpha) 366 0.0056
+IP(alpha) 366 0.0414
+Backtracking(eps) 264 0.0005
+CP(eps) 264 0.0058
+IP(eps) 264 0.0319
+Spectral 264 0.0036
+Greedy(500) 366 0.0178
+Greedy(1000) 366 0.0356
+GreedyKL 366 0.0001
+TEST 16:
+Backtracking(alpha) 461 0.0005
+CP(alpha) 461 0.0063
+IP(alpha) 461 0.0408
+Backtracking(eps) 458 0.0003
+CP(eps) 458 0.0061
+IP(eps) 458 0.0318
+Spectral 461 0.0043
+Greedy(500) 461 0.0181
+Greedy(1000) 461 0.0357
+GreedyKL 461 0.0001
+TEST 17:
+Backtracking(alpha) 463 0.0007
+CP(alpha) 463 0.0065
+IP(alpha) 463 0.0479
+Backtracking(eps) 367 0.0005
+CP(eps) 367 0.0057
+IP(eps) 367 0.0382
+Spectral 292 0.0039
+Greedy(500) 463 0.018
+Greedy(1000) 463 0.0371
+GreedyKL 463 0.0001
+TEST 18:
+Backtracking(alpha) 392 0.0003
+CP(alpha) 392 0.0065
+IP(alpha) 392 0.0437
+Backtracking(eps) 333 0.0003
+CP(eps) 333 0.0058
+IP(eps) 333 0.0329
+Spectral 333 0.0027
+Greedy(500) 392 0.0179
+Greedy(1000) 392 0.0361
+GreedyKL 392 0.0001
+TEST 19:
+Backtracking(alpha) 452 0.0005
+CP(alpha) 452 0.0066
+IP(alpha) 452 0.0361
+Backtracking(eps) 403 0.0004
+CP(eps) 403 0.0061
+IP(eps) 403 0.0254
+Spectral 452 0.0037
+Greedy(500) 452 0.018
+Greedy(1000) 452 0.0356
+GreedyKL 452 0.0001
+TEST 20:
+Backtracking(alpha) 326 0.0003
+CP(alpha) 326 0.0066
+IP(alpha) 326 0.0386
+Backtracking(eps) 301 0.0002
+CP(eps) 301 0.0059
+IP(eps) 301 0.0298
+Spectral 301 0.0033
+Greedy(500) 326 0.018
+Greedy(1000) 326 0.0358
+GreedyKL 326 0.0001
+SET 2
+TEST 1:
+Backtracking(alpha) 515 0.0826
+CP(alpha) 515 0.0327
+IP(alpha) 515 0.0795
+Backtracking(eps) 490 0.0414
+CP(eps) 490 0.0244
+IP(eps) 490 0.0449
+Spectral 515 0.005
+Greedy(500) 646 0.1089
+Greedy(1000) 515 0.2121
+GreedyKL 515 0.0004
+TEST 2:
+Backtracking(alpha) 544 0.0574
+CP(alpha) 544 0.0372
+IP(alpha) 544 0.0869
+Backtracking(eps) 486 0.0279
+CP(eps) 486 0.0288
+IP(eps) 486 0.1005
+Spectral 296 0.0043
+Greedy(500) 616 0.1093
+Greedy(1000) 544 0.2118
+GreedyKL 560 0.0005
+TEST 3:
+Backtracking(alpha) 459 0.0359
+CP(alpha) 459 0.0229
+IP(alpha) 459 0.0999
+Backtracking(eps) 405 0.025
+CP(eps) 405 0.0176
+IP(eps) 405 0.044
+Spectral 405 0.0051
+Greedy(500) 625 0.108
+Greedy(1000) 541 0.2099
+GreedyKL 459 0.0004
+TEST 4:
+Backtracking(alpha) 604 0.0842
+CP(alpha) 604 0.0286
+IP(alpha) 604 0.0826
+Backtracking(eps) 463 0.0429
+CP(eps) 463 0.0158
+IP(eps) 463 0.0649
+Spectral 176 0.0048
+Greedy(500) 604 0.1104
+Greedy(1000) 633 0.2158
+GreedyKL 618 0.0004
+TEST 5:
+Backtracking(alpha) 675 0.1365
+CP(alpha) 675 0.048
+IP(alpha) 675 0.1212
+Backtracking(eps) 664 0.0937
+CP(eps) 664 0.0519
+IP(eps) 664 0.0984
+Spectral 722 0.0047
+Greedy(500) 794 0.1088
+Greedy(1000) 787 0.2152
+GreedyKL 725 0.0004
+TEST 6:
+Backtracking(alpha) 570 0.0816
+CP(alpha) 570 0.0198
+IP(alpha) 570 0.0927
+Backtracking(eps) 428 0.0383
+CP(eps) 428 0.0135
+IP(eps) 428 0.0673
+Spectral 340 0.0051
+Greedy(500) 671 0.1078
+Greedy(1000) 650 0.2109
+GreedyKL 570 0.0005
+TEST 7:
+Backtracking(alpha) 537 0.0808
+CP(alpha) 537 0.0391
+IP(alpha) 537 0.1242
+Backtracking(eps) 495 0.0386
+CP(eps) 495 0.03
+IP(eps) 495 0.0824
+Spectral 543 0.0042
+Greedy(500) 669 0.1081
+Greedy(1000) 549 0.2124
+GreedyKL 537 0.0007
+TEST 8:
+Backtracking(alpha) 471 0.0456
+CP(alpha) 471 0.0188
+IP(alpha) 471 0.0647
+Backtracking(eps) 430 0.0219
+CP(eps) 430 0.0142
+IP(eps) 430 0.067
+Spectral 430 0.0047
+Greedy(500) 677 0.1107
+Greedy(1000) 657 0.2143
+GreedyKL 471 0.0004
+TEST 9:
+Backtracking(alpha) 593 0.052
+CP(alpha) 593 0.0318
+IP(alpha) 593 0.0891
+Backtracking(eps) 488 0.0318
+CP(eps) 488 0.0119
+IP(eps) 488 0.0702
+Spectral 592 0.0044
+Greedy(500) 642 0.1096
+Greedy(1000) 719 0.2115
+GreedyKL 593 0.0005
+TEST 10:
+Backtracking(alpha) 613 0.08
+CP(alpha) 613 0.0389
+IP(alpha) 613 0.1074
+Backtracking(eps) 522 0.0372
+CP(eps) 522 0.0366
+IP(eps) 522 0.089
+Spectral 654 0.0053
+Greedy(500) 757 0.1083
+Greedy(1000) 687 0.2113
+GreedyKL 613 0.0004
+TEST 11:
+Backtracking(alpha) 632 0.07
+CP(alpha) 632 0.0217
+IP(alpha) 632 0.1222
+Backtracking(eps) 572 0.0417
+CP(eps) 572 0.0196
+IP(eps) 572 0.0911
+Spectral 624 0.0042
+Greedy(500) 698 0.107
+Greedy(1000) 698 0.2104
+GreedyKL 698 0.0005
+TEST 12:
+Backtracking(alpha) 750 0.0685
+CP(alpha) 750 0.037
+IP(alpha) 750 0.1077
+Backtracking(eps) 686 0.0382
+CP(eps) 686 0.0458
+IP(eps) 686 0.1121
+Spectral 816 0.0065
+Greedy(500) 850 0.1106
+Greedy(1000) 869 0.2331
+GreedyKL 793 0.0005
+TEST 13:
+Backtracking(alpha) 637 0.064
+CP(alpha) 637 0.0427
+IP(alpha) 637 0.1001
+Backtracking(eps) 566 0.0379
+CP(eps) 566 0.0213
+IP(eps) 566 0.1088
+Spectral 540 0.0051
+Greedy(500) 790 0.1101
+Greedy(1000) 637 0.2177
+GreedyKL 650 0.0004
+TEST 14:
+Backtracking(alpha) 676 0.2943
+CP(alpha) 676 0.0455
+IP(alpha) 676 0.0771
+Backtracking(eps) 611 0.2125
+CP(eps) 611 0.0311
+IP(eps) 611 0.0745
+Spectral 421 0.0044
+Greedy(500) 735 0.1086
+Greedy(1000) 676 0.213
+GreedyKL 676 0.0005
+TEST 15:
+Backtracking(alpha) 445 0.0743
+CP(alpha) 445 0.0167
+IP(alpha) 445 0.0641
+Backtracking(eps) 439 0.0355
+CP(eps) 439 0.0164
+IP(eps) 439 0.0527
+Spectral 457 0.0044
+Greedy(500) 565 0.1094
+Greedy(1000) 562 0.2118
+GreedyKL 445 0.0004
+TEST 16:
+Backtracking(alpha) 548 0.0443
+CP(alpha) 548 0.0295
+IP(alpha) 548 0.1081
+Backtracking(eps) 514 0.0181
+CP(eps) 514 0.0214
+IP(eps) 514 0.0563
+Spectral 218 0.0039
+Greedy(500) 617 0.1086
+Greedy(1000) 609 0.2106
+GreedyKL 623 0.0004
+TEST 17:
+Backtracking(alpha) 618 0.11
+CP(alpha) 618 0.0311
+IP(alpha) 618 0.1204
+Backtracking(eps) 561 0.062
+CP(eps) 561 0.0266
+IP(eps) 561 0.1027
+Spectral 141 0.0039
+Greedy(500) 718 0.1085
+Greedy(1000) 618 0.2121
+GreedyKL 618 0.0006
+TEST 18:
+Backtracking(alpha) 657 0.0795
+CP(alpha) 657 0.0458
+IP(alpha) 657 0.0962
+Backtracking(eps) 620 0.0525
+CP(eps) 620 0.041
+IP(eps) 620 0.1051
+Spectral 632 0.0043
+Greedy(500) 780 0.1081
+Greedy(1000) 778 0.2113
+GreedyKL 657 0.0004
+TEST 19:
+Backtracking(alpha) 537 0.0522
+CP(alpha) 537 0.0228
+IP(alpha) 537 0.0974
+Backtracking(eps) 509 0.0294
+CP(eps) 509 0.0216
+IP(eps) 509 0.072
+Spectral 558 0.005
+Greedy(500) 537 0.1091
+Greedy(1000) 659 0.2116
+GreedyKL 537 0.0005
+SET 3
+TEST 1:
+CP(alpha) 1211 0.6732
+IP(alpha) 1211 0.7
+CP(eps) 1152 0.4346
+IP(eps) 1152 0.4657
+Spectral 1123 0.0075
+Greedy(500) 1969 1.4145
+Greedy(1000) 2052 2.8152
+GreedyKL 1267 0.0046
+TEST 2:
+CP(alpha) 1233 0.4644
+IP(alpha) 1233 0.5324
+CP(eps) 1160 0.418
+IP(eps) 1160 0.6182
+Spectral 1290 0.0054
+Greedy(500) 2144 1.4158
+Greedy(1000) 2024 2.8226
+GreedyKL 1288 0.0055
+TEST 3:
+CP(alpha) 968 0.4566
+IP(alpha) 968 0.7245
+CP(eps) 887 0.233
+IP(eps) 887 0.3565
+Spectral 125 0.0043
+Greedy(500) 2087 1.4108
+Greedy(1000) 1832 2.8169
+GreedyKL 1069 0.0074
+TEST 4:
+CP(alpha) 1117 0.4095
+IP(alpha) 1117 0.5632
+CP(eps) 1104 0.5106
+IP(eps) 1104 0.6601
+Spectral 1198 0.0063
+Greedy(500) 2002 1.4089
+Greedy(1000) 2079 2.8185
+GreedyKL 1205 0.0055
+TEST 5:
+CP(alpha) 1018 0.5903
+IP(alpha) 1018 0.5043
+CP(eps) 995 0.4115
+IP(eps) 995 0.6014
+Spectral 190 0.0055
+Greedy(500) 1681 1.4079
+Greedy(1000) 1974 2.8213
+GreedyKL 1186 0.0081
+TEST 6:
+CP(alpha) 1196 0.5787
+IP(alpha) 1196 0.65
+CP(eps) 1183 0.3764
+IP(eps) 1183 0.8966
+Spectral 978 0.0068
+Greedy(500) 2196 1.4156
+Greedy(1000) 2097 2.8306
+GreedyKL 1317 0.0063
+TEST 7:
+CP(alpha) 1061 0.5357
+IP(alpha) 1061 0.5943
+CP(eps) 1061 0.3448
+IP(eps) 1061 0.5636
+Spectral 738 0.005
+Greedy(500) 2179 1.4182
+Greedy(1000) 2201 2.8196
+GreedyKL 1061 0.0072
+TEST 8:
+CP(alpha) 1113 0.3312
+IP(alpha) 1113 0.6541
+CP(eps) 1086 0.4002
+IP(eps) 1086 0.4451
+Spectral 1173 0.0062
+Greedy(500) 2183 1.4299
+Greedy(1000) 2146 2.8025
+GreedyKL 1116 0.0063
+TEST 9:
+CP(alpha) 980 0.2562
+IP(alpha) 980 0.5045
+CP(eps) 901 0.3072
+IP(eps) 901 0.4322
+Spectral 1004 0.005
+Greedy(500) 1977 1.4299
+Greedy(1000) 2010 2.8398
+GreedyKL 1133 0.0055
+TEST 10:
+CP(alpha) 1211 0.5182
+IP(alpha) 1211 0.8025
+CP(eps) 1148 0.4743
+IP(eps) 1148 0.6323
+Spectral 243 0.0076
+Greedy(500) 2234 1.4242
+Greedy(1000) 2307 2.8156
+GreedyKL 1268 0.0063
+TEST 11:
+CP(alpha) 1425 0.9484
+IP(alpha) 1425 0.633
+CP(eps) 1324 0.5361
+IP(eps) 1324 0.5879
+Spectral 1635 0.0059
+Greedy(500) 2549 1.4131
+Greedy(1000) 2356 2.8225
+GreedyKL 1734 0.0064
+TEST 12:
+CP(alpha) 1160 1.1242
+IP(alpha) 1160 0.8489
+CP(eps) 1105 0.5503
+IP(eps) 1105 0.714
+Spectral 1118 0.0062
+Greedy(500) 1986 1.4158
+Greedy(1000) 2079 2.8356
+GreedyKL 1216 0.0064
+TEST 13:
+CP(alpha) 1036 0.3528
+IP(alpha) 1036 0.5569
+CP(eps) 941 0.2129
+IP(eps) 941 0.466
+Spectral 943 0.0052
+Greedy(500) 2141 1.4152
+Greedy(1000) 2217 2.8419
+GreedyKL 1082 0.0072
+TEST 14:
+CP(alpha) 1138 1.0183
+IP(alpha) 1138 0.5296
+CP(eps) 1085 0.4263
+IP(eps) 1085 0.4667
+Spectral 67 0.0067
+Greedy(500) 2169 1.4145
+Greedy(1000) 2138 2.8268
+GreedyKL 1379 0.0054
+TEST 15:
+CP(alpha) 1262 0.4434
+IP(alpha) 1262 0.769
+CP(eps) 1155 0.5482
+IP(eps) 1155 0.6295
+Spectral 95 0.0052
+Greedy(500) 2085 1.4314
+Greedy(1000) 1992 2.8315
+GreedyKL 1262 0.0046
+TEST 16:
+CP(alpha) 1237 0.8748
+IP(alpha) 1237 0.779
+CP(eps) 1133 0.3923
+IP(eps) 1133 0.8245
+Spectral 669 0.0062
+Greedy(500) 2308 1.4391
+Greedy(1000) 2187 2.8403
+GreedyKL 1388 0.0065
+TEST 17:
+CP(alpha) 1133 0.5234
+IP(alpha) 1133 0.6503
+CP(eps) 1056 0.4785
+IP(eps) 1056 0.6552
+Spectral 1165 0.0056
+Greedy(500) 2198 1.4234
+Greedy(1000) 2024 2.8216
+GreedyKL 1341 0.0064
+TEST 18:
+CP(alpha) 1120 0.4271
+IP(alpha) 1120 0.4323
+CP(eps) 1063 0.2666
+IP(eps) 1063 0.4034
+Spectral 1062 0.0052
+Greedy(500) 2287 1.4254
+Greedy(1000) 2122 2.8562
+GreedyKL 1165 0.0063
+TEST 19:
+CP(alpha) 1055 0.4404
+IP(alpha) 1055 0.5012
+CP(eps) 1055 0.5367
+IP(eps) 1055 0.6931
+Spectral 1055 0.005
+Greedy(500) 2161 1.4103
+Greedy(1000) 1940 2.8083
+GreedyKL 1080 0.0073
+TEST 20:
+CP(alpha) 1182 0.8574
+IP(alpha) 1182 0.8549
+CP(eps) 1097 0.2574
+IP(eps) 1097 0.5997
+Spectral 152 0.0041
+Greedy(500) 1819 1.415
+Greedy(1000) 1898 2.8271
+GreedyKL 1182 0.0068
+SET 4
+TEST 1:
+CP(alpha) 16157 10.0724
+IP(alpha) 17825 10.0322
+CP(eps) 15734 10.0681
+IP(eps) 18265 10.0345
+Spectral 13323 0.0063
+Greedy(500) 17554 1.4536
+Greedy(1000) 17463 2.8513
+GreedyKL 15704 0.0057
+TEST 2:
+CP(alpha) 15209 10.0725
+IP(alpha) 18046 10.0341
+CP(eps) 14733 10.0713
+IP(eps) 17383 10.0337
+Spectral 14982 0.0058
+Greedy(500) 17141 1.4486
+Greedy(1000) 16591 2.855
+GreedyKL 15085 0.0066
+TEST 3:
+CP(alpha) 14833 10.0729
+IP(alpha) 16010 10.0331
+CP(eps) 14663 10.0722
+IP(eps) 16892 10.0293
+Spectral 15275 0.0046
+Greedy(500) 16937 1.4883
+Greedy(1000) 16484 2.9504
+GreedyKL 14983 0.0048
+TEST 4:
+CP(alpha) 15550 10.0711
+IP(alpha) 17647 10.0336
+CP(eps) 14902 10.0891
+IP(eps) 16389 10.0423
+Spectral 13774 0.0056
+Greedy(500) 16733 1.4962
+Greedy(1000) 16577 2.8984
+GreedyKL 14966 0.0075
+TEST 5:
+CP(alpha) 15670 10.0701
+IP(alpha) 17299 10.0342
+CP(eps) 15307 10.073
+IP(eps) 16867 10.0339
+Spectral 12654 0.0057
+Greedy(500) 16613 1.479
+Greedy(1000) 16884 2.9648
+GreedyKL 15615 0.0068
+TEST 6:
+CP(alpha) 15138 10.0711
+IP(alpha) 16679 10.0348
+CP(eps) 15024 10.0739
+IP(eps) 16721 10.0352
+Spectral 15044 0.0059
+Greedy(500) 16695 1.4855
+Greedy(1000) 16478 2.9743
+GreedyKL 15269 0.0057
+TEST 7:
+CP(alpha) 15879 10.071
+IP(alpha) 17455 10.0365
+CP(eps) 16006 10.0708
+IP(eps) 18249 10.0348
+Spectral 15616 0.0073
+Greedy(500) 17314 1.5318
+Greedy(1000) 17105 2.9316
+GreedyKL 16177 0.0059
+TEST 8:
+CP(alpha) 15238 10.0733
+IP(alpha) 18268 10.0378
+CP(eps) 15021 10.0779
+IP(eps) 17180 10.0333
+Spectral 9632 0.0055
+Greedy(500) 17049 1.4698
+Greedy(1000) 16901 2.9782
+GreedyKL 14993 0.0059
+TEST 9:
+CP(alpha) 15359 10.0716
+IP(alpha) 16838 10.0363
+CP(eps) 15258 10.0705
+IP(eps) 18239 10.0394
+Spectral 15354 0.0097
+Greedy(500) 16987 1.5649
+Greedy(1000) 16751 2.8999
+GreedyKL 15122 0.0057
+TEST 10:
+CP(alpha) 15193 10.0727
+IP(alpha) 17915 10.0333
+CP(eps) 15249 10.0739
+IP(eps) 17457 10.0315
+Spectral 15702 0.0052
+Greedy(500) 17222 1.4792
+Greedy(1000) 16458 2.904
+GreedyKL 15193 0.0079
+TEST 11:
+CP(alpha) 15363 10.0727
+IP(alpha) 17758 10.0371
+CP(eps) 15368 10.0721
+IP(eps) 17037 10.0339
+Spectral 15587 0.005
+Greedy(500) 17490 1.4568
+Greedy(1000) 17190 2.931
+GreedyKL 15363 0.0066
+TEST 12:
+CP(alpha) 15659 10.0887
+IP(alpha) 18065 10.0353
+CP(eps) 15597 10.0718
+IP(eps) 16736 10.0364
+Spectral 15853 0.0061
+Greedy(500) 17223 1.4804
+Greedy(1000) 17224 2.8972
+GreedyKL 15598 0.0065
+TEST 13:
+CP(alpha) 16006 10.0762
+IP(alpha) 19188 10.037
+CP(eps) 15152 36.2688
+IP(eps) 17181 10.0647
+Spectral 14648 0.0063
+Greedy(500) 17601 1.4451
+Greedy(1000) 17247 3.0185
+GreedyKL 15576 0.0056
+TEST 14:
+CP(alpha) 15278 10.0726
+IP(alpha) 17404 10.0283
+CP(eps) 15249 10.0762
+IP(eps) 17109 10.0339
+Spectral 13074 0.0059
+Greedy(500) 17541 1.4567
+Greedy(1000) 16975 2.9063
+GreedyKL 15143 0.0056
+TEST 15:
+CP(alpha) 16001 10.0721
+IP(alpha) 17288 10.036
+CP(eps) 15903 10.0717
+IP(eps) 16747 10.0322
+Spectral 15465 0.0053
+Greedy(500) 17120 1.4989
+Greedy(1000) 17179 2.8938
+GreedyKL 15652 0.0065
+TEST 16:
+CP(alpha) 15827 10.071
+IP(alpha) 17806 10.0329
+CP(eps) 15237 10.0778
+IP(eps) 16643 10.0355
+Spectral 13794 0.006
+Greedy(500) 17279 1.5104
+Greedy(1000) 16759 2.9586
+GreedyKL 15424 0.0056
+TEST 17:
+CP(alpha) 14962 10.073
+IP(alpha) 17585 10.0363
+CP(eps) 14879 10.0729
+IP(eps) 16060 10.0331
+Spectral 14616 0.0078
+Greedy(500) 17068 1.5251
+Greedy(1000) 16781 2.8621
+GreedyKL 14968 0.0057
+TEST 18:
+CP(alpha) 15373 10.0716
+IP(alpha) 16365 10.0341
+CP(eps) 15074 10.0742
+IP(eps) 18048 10.0326
+Spectral 15132 0.0041
+Greedy(500) 16788 1.4552
+Greedy(1000) 16650 2.8686
+GreedyKL 15012 0.0067
+TEST 19:
+CP(alpha) 15537 10.0729
+IP(alpha) 18032 10.0343
+CP(eps) 15239 10.0728
+IP(eps) 17914 10.0343
+Spectral 14451 0.0071
+Greedy(500) 16780 1.4969
+Greedy(1000) 17235 2.9666
+GreedyKL 15418 0.0065
+TEST 20:
+CP(alpha) 15410 10.0733
+IP(alpha) 17521 10.0376
+CP(eps) 15228 10.0721
+IP(eps) 18143 10.0364
+Spectral 14647 0.0059
+Greedy(500) 17153 1.5129
+Greedy(1000) 16869 2.8791
+GreedyKL 15336 0.0068

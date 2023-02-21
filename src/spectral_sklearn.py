@@ -9,4 +9,4 @@ def solve(affinity, n, m, k, epsilon, time):
         for j in range(i):
             if partitions[i] != partitions[j]:
                 ans += affinity[i][j]
-    return ans, partitions
+    return ans

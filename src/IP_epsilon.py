@@ -50,7 +50,7 @@ def solve(input_affinity, input_n, input_m, input_k, input_epsilon, inp_time_lim
                 adjcwgt.append(affinity[i][j])
                 a += 1
         xadj.append(a)
-    return IPModel()
+    return round(IPModel())
 
     # return ans_partition
 

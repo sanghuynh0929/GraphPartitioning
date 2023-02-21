@@ -83,17 +83,12 @@ def KL(adj, P0, P1):
 
 def solve(affinity, n, m, k, epsilon, time):
     P0, P1 = greedy_partition(affinity, n, 2)
+    P0_, P1_ = KL(affinity, P0, P1)
     ans = 0
-    for p in P0:
-        for q in P1:
+    for p in P0_:
+        for q in P1_:
             ans += affinity[p][q]
-    a1 = ans
-    P0, P1 = KL(affinity, P0, P1)
-    ans = 0
-    for p in P0:
-        for q in P1:
-            ans += affinity[p][q]
-    return a1, ans
+    return ans
 
 
 
